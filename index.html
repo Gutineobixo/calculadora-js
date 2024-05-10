@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Gutin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator">
+      <input type="text" id="display" disabled aria-label="Display da calculadora">
+        <div class="buttons">
+            <button onclick="calc.numClicked('1')">1</button>
+            <button onclick="calc.numClicked('2')">2</button>
+            <button onclick="calc.numClicked('3')">3</button>
+            <button onclick="calc.opClicked('+')">+</button>
+            <button onclick="calc.numClicked('4')">4</button>
+            <button onclick="calc.numClicked('5')">5</button>
+            <button onclick="calc.numClicked('6')">6</button>
+            <button onclick="calc.opClicked('-')">-</button>
+            <button onclick="calc.numClicked('7')">7</button>
+            <button onclick="calc.numClicked('8')">8</button>
+            <button onclick="calc.numClicked('9')">9</button>
+            <button onclick="calc.opClicked('*')">*</button>
+            <button onclick="calc.clear()">C</button>
+            <button onclick="calc.numClicked('0')">0</button>
+            <button onclick="calc.calculate()">=</button>
+            <button onclick="calc.opClicked('/')">/</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

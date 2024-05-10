@@ -1,0 +1,17 @@
+{
+      "compilerOptions": {
+          "target": "es5",
+          "module": "commonjs",
+          "strict": true,
+          "esModuleInterop": true,
+          "outDir": "./dist",  // Indicando uma pasta de saída para os arquivos compilados
+          "forceConsistentCasingInFileNames": true
+      },
+      "include": [
+          "app.ts"
+      ],
+      "exclude": [
+          "node_modules"  // Excluindo a pasta node_modules por padrão
+      ]
+  }
+  
